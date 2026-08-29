@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Servidor do PDV ativo');
+  res.send('servidor do PDV ativo');
 });
 
 app.post('/alerts', (req, res) => {
@@ -12,5 +12,5 @@ app.post('/alerts', (req, res) => {
 });
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));
+app.listen(PORT, () => console.log(`servidor rodando na porta ${PORT}`));
 
