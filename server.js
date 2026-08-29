@@ -6,7 +6,8 @@ app.use(express.json());
 
 // Substitua pelo seu Access Token do Mercado Pago
 const client = new MercadoPagoConfig({ 
-  accessToken: 'APP_USR-2575152982556551-081911-314c09e448b3dfadd87b4fd7c2cc0fef-3259751109' 
+  accessToken: 'APP_USR-4a37a908-0434-4fc4-b38e-0eb162f4c257'
+  
 });
 
 app.get('/', (req, res) => {
